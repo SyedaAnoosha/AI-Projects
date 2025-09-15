@@ -22,14 +22,6 @@ def health():
     return jsonify({"status": "ok"})
 
 
-@app.route("/debug", methods=["GET"])
-def debug():
-    return jsonify({
-        "groq_api_key_set": bool(GROQ_API_KEY),
-        "note": "This endpoint only confirms presence of env var, not its value."
-    })
-
-
 def call_groq_api(message, history=None):
     """Call Groq chat completions endpoint. Returns parsed JSON or raises RuntimeError."""
 
