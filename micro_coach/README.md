@@ -65,10 +65,8 @@ This README covers getting the project running locally, how the backend API work
 	python backend/app.py
 	```
 
-5. Useful backend endpoints:
+5. Backend endpoint:
 
-	- `GET /health` — quick health check (returns {"status":"ok"}).
-	- `GET /debug` — shows whether `GROQ_API_KEY` is set (helpful locally).
 	- `POST /chat` — main chat endpoint. Accepts JSON: `{ "message": "...", "history": [...] }` and returns `{ "raw": <groq response>, "reply": "<assistant text>" }`.
 
 ---

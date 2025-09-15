@@ -15,13 +15,6 @@ CORS(app, resources={r"/chat": {"origins": "http://localhost:3000"}})
 
 logging.basicConfig(level=logging.INFO)
 
-
-
-@app.route("/health", methods=["GET"])
-def health():
-    return jsonify({"status": "ok"})
-
-
 def call_groq_api(message, history=None):
     """Call Groq chat completions endpoint. Returns parsed JSON or raises RuntimeError."""
 
