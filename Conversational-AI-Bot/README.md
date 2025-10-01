@@ -3,14 +3,27 @@
 This repository contains a small voice-to-voice conversational bot demonstration. It includes:
 
 - backend/: FastAPI backend that handles audio transcription, response generation (via GROQ), and text-to-speech (gTTS).
-- frontend/: Streamlit demo app that uploads an audio file, sends it to the backend, and plays the generated reply.
+- frontend/: Streamlit demo app with **built-in audio recording** and file upload capabilities.
 
 ## Features
 
-- Transcribe uploaded audio to text (/transcribe)
+- Record your voice directly in the browser
+- Transcribe uploaded or recorded audio to text (/transcribe)
 - Generate a short reply using GROQ chat completions (/respond)
 - Convert text reply to MP3 base64 (/tts)
 - Convenience endpoint that does the full pipeline (transcribe -> respond -> tts) (/converse)
+- Dual input modes: Record live or upload pre-recorded audio files
+
+## UI snapshots
+
+Recording tab (in-browser mic):
+
+![Recording tab](./images/record_audio_tab.png)
+
+Upload tab (file selection and preview):
+
+![Upload tab](./images/upload_audio_tab.png)
+
 
 ## Backend endpoints
 
