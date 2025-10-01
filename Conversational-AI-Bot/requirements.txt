@@ -7,3 +7,4 @@ python-multipart
 SpeechRecognition
 gTTS
 groq
+audio-recorder-streamlit
