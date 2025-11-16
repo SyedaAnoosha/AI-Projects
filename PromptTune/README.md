@@ -48,6 +48,16 @@
 - Rapid optimize → test loop
 - Clean JSON payload schemas
 
+### 🗂️ Prompt Library
+- Centralized, searchable repository of prompt templates
+- List with live preview and metadata editing 
+- Supports tags and one-click import into the optimize/chat flow
+
+### 👥 Personas System
+- Pre-built persona templates to condition responses 
+- Activate a persona as system context during optimize/chat sessions to quickly test persona-specific behavior
+- Personas are editable and stored with friendly names and instructions, enabling reproducible persona testing
+
 ### ✅ Quality Checklist Engine
 - Auto improvement checklist
 - Separation of structure vs narrative cues
