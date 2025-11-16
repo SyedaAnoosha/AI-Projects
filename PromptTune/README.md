@@ -12,7 +12,9 @@
 <a href="https://pydantic.dev/"><img src="https://img.shields.io/badge/Pydantic-Validation-3A5CCE?style=for-the-badge" alt="Pydantic" /></a>
 <a href="https://www.uvicorn.org/"><img src="https://img.shields.io/badge/Uvicorn-ASGI-4B8BBE?style=for-the-badge" alt="Uvicorn" /></a>
 <br/>
-<strong>Refine raw prompts using meta-prompting + RAG over curated pattern sources.</strong><br/>
+<strong>PromptTune is a fast, explainable prompt optimizer that turns raw prompts into tested, checklist-driven system prompts using RAG, meta‑prompting, a searchable Prompt Library, persona-driven system contexts, and one‑click chat validation.</strong>
+
+---
 <em>Iterate rapidly: optimize → test in chat → checklist-driven refinement.</em>
 </div>
 
