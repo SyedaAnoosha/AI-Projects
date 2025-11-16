@@ -241,6 +241,6 @@ Special thanks to the open-source projects and services that make PromptTune pos
 ## ⭐ Show Support
 Star the repo if it helps you!
 
-Built with ❤️ by Syeda Anoosha and contributors
+Built by Syeda Anoosha
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=SyedaAnoosha.AI-Projects.interactive_prompt_optimizer)
