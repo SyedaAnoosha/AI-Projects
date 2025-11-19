@@ -121,12 +121,10 @@ App: http://localhost:5173
 ## 🗂️ Project Structure
 ```
 PromptTune/
-├─ .env                         # Root environment configuration (API keys)
 ├─ README.md
 ├─ requirements.txt             # Backend Python dependencies
 ├─ backend/
 │  ├─ __init__.py
-│  ├─ .env                      # Optional backend-specific overrides
 │  ├─ main.py                   # FastAPI app entry
 │  ├─ auth.py                   # API key auth helpers
 │  ├─ ingest.py                 # RAG source ingestion -> Pinecone
@@ -136,9 +134,7 @@ PromptTune/
 │  ├─ create_index.py           # Pinecone index creation script
 │  ├─ migrations/
 │  │  └─ add_active_persona_column.py
-│  └─ __pycache__/              # Ignored compiled artifacts
 ├─ frontend/
-│  ├─ .env                      # Frontend build-time vars (VITE_API_BASE, etc.)
 │  ├─ index.html
 │  ├─ package.json
 │  └─ src/
@@ -178,10 +174,8 @@ PromptTune/
 │  │  └─ PAPERS.md
 │  ├─ promptingguide/
 │  │  └─ prompt_eng.md
-│  └─ (additional pattern folders)
-├─ UI/                          # PNG screenshot assets used in README
-│  └─ home.png, login.png, ...
-└─ (other ancillary files e.g., .gitignore)
+└─ UI/                          # PNG screenshot assets used in README
+   └─ home.png, login.png, ...
 ```
 
 ## 🧪 API Examples
